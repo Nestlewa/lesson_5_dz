@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Open+Sans:ital@0;1&family=Rubik+Dirt&display=swap');
+
+@font-face {
+    font-family: 'MetaPro';
+    src: url('../fonts/font/MetaPro-Bold.woff2') format('woff2'),
+        url('../fonts/font/MetaPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    min-width: 300px;
+    max-width: 810px;
+    font-family: 'Open Sans', sans-serif;
+}
+.caption{
+    font-family: "MetaPro", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+a{
+    color: rgb(253, 106, 155);
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #000;
+}
+[class*="text"] {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 3px 0;
+    text-align: left;
+    color: green;
+}
+span{
+    font-style: italic;
+    font-size: 20px;
+    color: lawngreen;
+}
+.main-description-block>.text{
+    color: black;
+    text-shadow: 1px 1px 2px rgb(253, 106, 155);
+}
+.text+.text{
+    color: red;
+}
+.neskorenist-block>.text{
+    color: blue;
+    text-shadow: 2px 2px 2px rgb(0, 229, 255);
+}
+.first{
+    text-indent: 150px;
+}
+.area,
+.signature{
+    font-style: italic;
+}
+p.signature{
+    color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+}
+[class*=-block]{
+    text-align: center;
+}
+.footer-link{
+    font-family: 'Rubik Dirt', cursive;
+    color: blueviolet;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+span.link{
+    font-family: 'Rubik Dirt', cursive;
+    color: blueviolet;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer p{
+    font-family: 'Rubik Dirt', cursive;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 3px 0;
+}
